@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name:  mylogin-rc
 spec:
-  replicas: 3
+  replicas: 5
   selector:
      app:  mylogin
   template:
